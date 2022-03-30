@@ -169,7 +169,7 @@ describe('Test and verify SQL downloads', () => {
         url: url,
         headers: {
           'content-type': 'application/json;charset=UTF-8',
-          'kbn-version': '7.10.2',
+          'kbn-version': '7.17.1',
         },
         body: {
           'query': 'select * from accounts where balance > 49500'
